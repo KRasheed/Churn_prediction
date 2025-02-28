@@ -5,7 +5,8 @@ This repository contains a Jupyter Notebook for analyzing customer churn and pre
 ## Analysis Flow
 
 ### 1. **Data Loading and Inspection**
-    The notebook begins by loading the dataset, which includes detailed information about customer accounts and usage patterns. A preliminary inspection of the data is performed to examine the structure and key features, such as account length, service usage, and customer service interactions. The analysis then focuses on understanding the churn rate among high-value customers versus low-value customers. High-value customers, who typically contribute significantly to revenue, are identified as being at higher risk of churn. By targeting these customers for retention strategies, businesses can optimize their efforts to reduce churn and maximize revenue.
+
+The notebook begins by loading the dataset, which includes detailed information about customer accounts and usage patterns. A preliminary inspection of the data is performed to examine the structure and key features, such as account length, service usage, and customer service interactions. The analysis then focuses on understanding the churn rate among high-value customers versus low-value customers. High-value customers, who typically contribute significantly to revenue, are identified as being at higher risk of churn. By targeting these customers for retention strategies, businesses can optimize their efforts to reduce churn and maximize revenue.
    
 ### 2. **Classification of customers Types**
    - Rules are applied to create the `High_value_customer` column based on various factors such as customer service calls, usage minutes, and account length.
